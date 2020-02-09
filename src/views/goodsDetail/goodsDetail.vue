@@ -78,7 +78,7 @@ export default {
     // 获取商品图片信息
     getGoodsMessage() {
       const params = {
-        userId: this.id || ''
+        id: this.id || ''
       }
       API.goods.getGoodsDetail(params).then(res => {
         if (res.code === 200) {

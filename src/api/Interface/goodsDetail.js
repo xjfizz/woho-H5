@@ -9,8 +9,8 @@ const goods = {
     getGoodsDetail: function(params) {
     return request({
       url: '/api/goods/imgList',
-      method: 'post',
-      data: params
+      method: 'get',
+      params: params
     })
   }
 }

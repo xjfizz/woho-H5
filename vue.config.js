@@ -53,7 +53,7 @@ module.exports = {
     proxy: { 
       '/api': {
           // target: 'http://192.168.1.153:8080/', //开发环境
-           target: 'http://192.168.1.179:3002/woho/', // 正式环境
+           target: 'http://192.168.1.179:9999/xujun/', // 正式环境
           changeOrigin: false,
            ws: false,
           pathRewrite: {
